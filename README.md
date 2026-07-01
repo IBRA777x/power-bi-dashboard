@@ -11,7 +11,7 @@ Interactive Power BI dashboard for analyzing coffee shop sales in Poland.
 
 This project was created in Power BI to analyze sales performance across multiple coffee shops in Poland. The dashboard provides an overview of key business metrics such as sales, costs, profit margin, product categories, and city-level performance.
 
-## 🚀 Features
+## Features
 
 - Interactive filters (Year, Month, City, Address, Category, Size)
 - KPI cards (Sales, Costs, Margin, Order Date)
