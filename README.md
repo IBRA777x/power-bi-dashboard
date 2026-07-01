@@ -1,45 +1,119 @@
 # powerbi-coffee-sales-dashboard
-# ☕ Coffee Sales Dashboard
+# ☕ Dashboard sprzedaży kawiarni w Polsce
 
-Interactive Power BI dashboard for analyzing coffee shop sales in Poland.
+Interaktywny dashboard stworzony w **Power BI** do analizy sprzedaży sieci kawiarni w Polsce.
 
-## 📊 Dashboard Preview
+## 📊 Podgląd dashboardu
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+![Dashboard](screenshots/dashboard-overview.png)
 
-## 📌 Project Overview
+---
 
-This project was created in Power BI to analyze sales performance across multiple coffee shops in Poland. The dashboard provides an overview of key business metrics such as sales, costs, profit margin, product categories, and city-level performance.
+# 📌 Opis projektu
 
-## Features
+Projekt przedstawia interaktywny dashboard umożliwiający analizę sprzedaży kawiarni w Polsce.
 
-- Interactive filters (Year, Month, City, Address, Category, Size)
-- KPI cards (Sales, Costs, Margin, Order Date)
-- Monthly sales and margin analysis
-- Sales by product category
-- Sales by city
-- Dynamic visualizations
+Raport pozwala monitorować najważniejsze wskaźniki biznesowe oraz analizować sprzedaż z różnych perspektyw, takich jak czas, lokalizacja oraz kategorie produktów.
 
-## 🛠 Technologies Used
+Dashboard został przygotowany z wykorzystaniem modelu danych Power BI, transformacji danych w Power Query oraz miar DAX.
 
-- Power BI
+---
+
+# Funkcjonalności
+
+- Interaktywne filtry:
+  - Rok
+  - Miesiąc
+  - Miasto
+  - Adres
+  - Kategoria
+  - Rozmiar
+
+- Karty KPI prezentujące:
+  - Sprzedaż
+  - Koszt
+  - Marżę
+  - Datę zamówienia
+
+- Analiza sprzedaży w czasie
+
+- Analiza marży
+
+- Sprzedaż według kategorii produktów
+
+- Sprzedaż według miasta
+
+- Dynamiczne filtrowanie wszystkich wizualizacji
+
+---
+
+# 🛠 Wykorzystane technologie
+
+- Power BI Desktop
 - Power Query
 - DAX
 - Microsoft Excel
 - CSV
 
-## 📂 Repository Structure
+---
+
+# 📂 Struktura repozytorium
 
 ```
 Coffee-Sales-Dashboard.pbix
+
 data/
+├── Produkty.xlsx
+├── Sklepy.csv
+└── Sprzedaz/
+    ├── 202301.csv
+    ├── 202302.csv
+    ├── 202303.csv
+    ├── 202304.csv
+    ├── 202305.csv
+    └── 202306.csv
+
 screenshots/
+├── dashboard-overview.png
+└── sales-by-city.png
+
 README.md
 ```
 
-## 📷 Additional Screenshot
+---
 
-![Sales by City](screenshots/sales-by-city.png)
+# 📷 Dodatkowy zrzut ekranu
+
+![Sprzedaż według miasta](screenshots/sales-by-city.png)
+
+---
+
+# 📁 Zawartość projektu
+
+| Plik | Opis |
+|------|------|
+| Coffee-Sales-Dashboard.pbix | Główny raport Power BI |
+| data/ | Dane źródłowe wykorzystane w projekcie |
+| screenshots/ | Zrzuty ekranu dashboardu |
+| README.md | Opis projektu |
+
+---
+
+# 🎯 Cel biznesowy
+
+Celem projektu było stworzenie dashboardu umożliwiającego szybkie monitorowanie sprzedaży oraz marży w sieci kawiarni.
+
+Raport pozwala identyfikować:
+
+- najlepiej sprzedające się produkty,
+- miasta generujące najwyższą sprzedaż,
+- zmiany sprzedaży w czasie,
+- poziom marży,
+- wpływ filtrów na analizowane dane.
+
+Dashboard może stanowić wsparcie dla kadry zarządzającej podczas podejmowania decyzji biznesowych.
+
+---
 
 ## 📁 Files
 
