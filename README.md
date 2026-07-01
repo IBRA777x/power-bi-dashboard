@@ -1,4 +1,4 @@
-# power-bi-dashboard
+# powerbi-coffee-sales-dashboard
 # ☕ Coffee Sales Dashboard
 
 Interactive Power BI dashboard for analyzing coffee shop sales in Poland.
