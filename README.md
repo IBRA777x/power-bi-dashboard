@@ -59,7 +59,6 @@ Dashboard został przygotowany z wykorzystaniem modelu danych Power BI, transfor
 
 # 📂 Struktura repozytorium
 
-```
 Coffee-Sales-Dashboard.pbix
 
 data/
@@ -78,7 +77,6 @@ screenshots/
 └── sales-by-city.png
 
 README.md
-```
 
 ---
 
