@@ -120,3 +120,16 @@ Dashboard może stanowić wsparcie dla kadry zarządzającej podczas podejmowani
 - Coffee-Sales-Dashboard.pbix – Power BI report
 - data/ – source data
 - screenshots/ – dashboard previews
+
+---
+
+# 📈 Stworzenie projektu obejmowało:
+
+- Modelowanie danych
+- Tworzenie relacji między tabelami
+- Transformacja danych w Power Query
+- Tworzenie miar DAX
+- Projektowanie dashboardów
+- Wizualizacja danych
+- Analiza KPI
+- Projektowanie interaktywnych raportów
